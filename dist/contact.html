@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DeviWebInfo | Services</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="hero-contact">
+        <div class="container">
+            <nav>
+                <input type="checkbox" id="nav" class="hidden">
+                <label for="nav" class="nav-btn">
+                  <i></i>
+                  <i></i>
+                  <i></i>
+                </label>
+                
+                <div class="logo">
+                  <a href="#">Devi<span>Web</span>Info</a>
+                </div>
+                <div class="nav-wrapper">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li  class="active"><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+
+
+        
+
+        <div class="header" >
+            <div class="container" data-aos="fade-down" data-aos-duration="1000">
+                <h1>Want to  work with us <br> <span>contact</span> us now.-
+                <p>We design avery kind of website and web app for avery kind of business. web have many pre-made templates for fast website design for so many industries. You can select any of the template and its takes only minutes to make your website.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="contact">
+        <div class="container">
+           
+            <div class="contacts" >
+                <div class="contact-box" data-aos="fade-up" data-aos-duration="1000">
+                    <h2>Get in Touch</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, reiciendis! Deleniti, assumenda nobis similique a molestiae, sapiente optio nihil obcaecati qui harum reprehenderit quis perspiciatis!</p>
+
+                    <h4><i class="fas fa-phone"></i> 91-8588976213</h4>
+                    <h4><i class="far fa-envelope"></i> amitsingh17051@gmail.com</h4>
+                    <address> <i class="fas fa-map-marker-alt"></i>
+                        v-98 arvind nagar, <br>
+                        ghonda north-east, <br>
+                        delhi-110053
+                    </address>
+                </div>
+
+                <form name="contact" method="POST" data-netlify="true" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="input-group two-input">
+                        <input type="text" placeholder="Your Name" name="name"> 
+                    </div>
+
+                    <div class="input-group two-input">
+                        <input type="email" placeholder="Your Email" name="email">
+                    </div>
+                    <div class="input-group two-input">
+                        <textarea id="" cols="30" rows="5" placeholder="Your Message" name="message"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" class="btn-input">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <hr>
+
+    <footer >
+        <div class="container">
+            <div class="box-1">
+                <ul class="footer-navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            
+            
+                <div class="icon">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-google-plus-square"></i>
+                </div>
+            </div>
+
+            <div class="box-2">
+                <h2>What we do..</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci placeat, itaque perferendis nulla est fuga sapiente tempora laborum?</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+
+        $("a[href^='#']").click(function(e) {
+            e.preventDefault();
+        
+            var position = $($(this).attr("href")).offset().top;
+
+            $("body, html").animate({
+                scrollTop: position
+            } /* speed */ );
+        });
+
+       
+
+
+    </script>
+</body>
+</html>
