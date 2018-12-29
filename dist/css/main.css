@@ -407,7 +407,7 @@ nav {
   font-family: source sans pro; }
 
 .hero {
-  background: url("../images/main.png");
+  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103240/main_gmucir.png");
   background-repeat: no-repeat;
   background-position: right;
   margin: 0;
@@ -415,7 +415,7 @@ nav {
   height: 100vh; }
 
 .hero-portfolio {
-  background: url("../images/port12.png");
+  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103238/port12_rlyipt.png");
   background-repeat: no-repeat;
   background-position: right;
   margin: 0;
@@ -423,7 +423,7 @@ nav {
   height: 100vh; }
 
 .hero-services {
-  background: url("../images/port13.png");
+  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103239/port13_d1ked1.png");
   background-repeat: no-repeat;
   background-position: right;
   margin: 0;
@@ -431,7 +431,7 @@ nav {
   height: 100vh; }
 
 .hero-contact {
-  background: url("../images/contact.png");
+  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103236/contact_mbtjfa.png");
   background-repeat: no-repeat;
   background-position: right;
   margin: 0;
