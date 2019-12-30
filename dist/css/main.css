@@ -246,7 +246,7 @@ nav {
       nav ul li a {
         display: inline-block;
         outline: none;
-        color: #fff;
+        color: #111;
         text-transform: uppercase;
         text-decoration: none;
         font-size: 12px;
@@ -293,7 +293,7 @@ nav {
   .nav-wrapper ul li a {
     padding: 10px 24px;
     opacity: 0;
-    color: #000;
+    color: #111;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1.2px;
@@ -406,43 +406,13 @@ nav {
   box-sizing: border-box;
   font-family: source sans pro; }
 
-.hero {
-  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103240/main_gmucir.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  margin: 0;
-  padding: 0;
-  height: 100vh; }
 
-.hero-portfolio {
-  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103238/port12_rlyipt.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  margin: 0;
-  padding: 0;
-  height: 100vh; }
-
-.hero-services {
-  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103239/port13_d1ked1.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  margin: 0;
-  padding: 0;
-  height: 100vh; }
-
-.hero-contact {
-  background: url("https://res.cloudinary.com/singhswebsolution/image/upload/v1546103236/contact_mbtjfa.png");
-  background-repeat: no-repeat;
-  background-position: right;
-  margin: 0;
-  padding: 0;
-  height: 100vh; }
 
 .header {
   padding-top: 350px; }
   .header h1 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 66px;
+    line-height: 80px;
     font-weight: 600;
     font-family: playfair display; }
     .header h1 span {
@@ -450,7 +420,7 @@ nav {
   .header p {
     padding-top: 10px;
     color: #999;
-    max-width: 400px;
+  
     font-family: source sans pro;
     font-size: 14px;
     line-height: 18px; }
